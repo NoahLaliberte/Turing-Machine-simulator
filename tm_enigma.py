@@ -1,7 +1,7 @@
 """
 tm_enigma.py
 
-Turing Machine simulator implemented as an Enigma-like 3-rotor cipher UI using curses (NO tkinter).
+Turing Machine simulator implemented as an Enigma-like 3-rotor cipher UI using curses.
 
 What it does:
 - Implements a basic TM (tape + head + state + delta)
@@ -21,12 +21,12 @@ Controls:
   +      Faster steps
   -      Slower steps
   E      Edit message
-  P      Edit start positions (Grundstellung) e.g. "A A A"
-  G      Edit ring settings (Ringstellung) e.g. "A A A"
-  O      Edit rotor order e.g. "I II III"
-  B      Edit plugboard pairs e.g. "AQ EP MT"
-  C      Copy output into message (does not auto-reload)
-  D      Decrypt (message := output, then reload with same settings)
+  P      Edit start positions "A A A"
+  G      Edit ring settings "A A A"
+  O      Edit rotor order "I II III"
+  B      Edit plugboard pairs "AQ EP MT"
+  C      Copy output into message but does not auto reload
+  D      Decrypt where message := output, then reload with same settings
   [ / ]  Scroll wiring panel
   Up/Down Scroll signal log
   Q      Quit
